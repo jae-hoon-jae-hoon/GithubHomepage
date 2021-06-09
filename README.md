@@ -1,8 +1,14 @@
 # 깃허브 홈페이지 만들기
 
-html, css, js를 이용해서 홈페이지를 만들었습니다.
+- HTML,CSS, JavaScript를 이용해서 홈페이지를 만들었습니다.
+  ![page1](./ReadmeImages/page1.PNG)
+  ![page2](./ReadmeImages/page2.PNG)
+  ![page3](./ReadmeImages/page3.PNG)
 
 ## HTML
+
+index.html
+[코드보기](./index.html)
 
 ### - head태그
 
@@ -21,19 +27,25 @@ html, css, js를 이용해서 홈페이지를 만들었습니다.
 ## CSS
 
 화면크기에 따라<br>
-1024px보다 클 경우 main.css<br>
-1024px이하일 경우 main_medium.css<br>
-768px이하일 경우 main_small.css<br>
+1024px보다 클 경우 main.css [코드보기](./css/main.css)<br>
+1024px이하일 경우 main_medium.css
+[코드보기](./css/main_medium.css)<br>
+768px이하일 경우 main_small.css
+[코드보기](./css/main_small.css)<br>
 css파일을 적용시켜 반응형웹을 만들었습니다.
+
+![responsive](./ReadmeImages/responsive.PNG)
 
 ## Javascript
 
-1. index.html<br>
+1. index.html
+   [코드보기](./index.html)<br>
    body태그 가장 밑쪽 코드에서
    두 개의 script태그를 사용했습니다. <br>
    첫번째 script태그는 구글맵을 만들고 구글맵에 대한 설정을 위한 코드입니다.<br>
    두번째 script태그는 구글맵을 사용하기위해 api key를 설정하는 코드입니다.<br>
 
-1. main.js<br>
+1. main.js
+   [코드보기](./main.js)<br>
    토글버튼의 작동 코드와
    화면의 크기가 리사이즈될 때 토글on/off에 대한 설정코드를 작성했습니다.
